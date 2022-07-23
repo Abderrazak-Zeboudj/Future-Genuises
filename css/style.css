@@ -1,0 +1,123 @@
+
+:root{
+    --black:#0000;
+--bleu:rgba(34, 2, 177, 0.986);
+--white:white;
+}
+body{
+    background-color: black;
+    
+}.container{
+    margin: 2cm;
+}
+.d-block {
+    margin-left: 1.5cm;
+    width: 90%;
+    height: 90%;
+} 
+.col-8{
+    margin-top: 3cm;
+    margin-right: 1cm;
+}
+.jumbotron{
+    padding-top: 12%;
+    align-items: center;
+    text-align: center;
+    margin-left: 6%;
+}
+.jumb{
+    color: var(--bleu);
+    font-size: 48px;
+}
+.btn{
+color: var(--white);
+    font-size: 24px;
+    background-color: black;
+}
+.btn:hover{
+    color: var(--black);
+    background-color: var(--bleu);
+}
+.navbar-blue{
+    text-decoration: none;
+    text-underline-offset: none;
+    text-decoration-line: none;
+    font-size: 24px;
+ 
+}
+.nav-link{
+    font-size: 20px;
+   
+}
+.navbar-nav {
+margin-left: 20%;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: var(--bleu);
+}
+.title h3{
+    color: var(--white);
+}
+.icons{
+    
+    text-align: center;
+    font-size: 28px;
+}
+.card-title{
+    font-size: 26px;
+    color: var(--bleu);
+    text-align: center;
+}
+.row{
+    margin-left:18% ;
+}
+.card img{
+    width: 3cm;
+    height: 3cm;
+    border: 3px solid var(--bleu);
+    border-radius: 100%;
+   margin-left:3cm ;
+}
+.pic img{
+    width: 3cm;
+    height: 3cm;
+    border: 3px solid var(--bleu);
+    border-radius: 100%;
+   margin-left:1.5cm ;
+}
+.stars{
+    text-align: center;
+}
+.form-row{
+    color: var(--white);
+}
+label{
+    color: var(--white);
+}
+.contact img{
+    width: 100%;
+    height: 10cm;
+    display: inline;
+    margin-left: 105%;
+    margin-top: -60%;
+    border: 4px solid var(--bleu) ;
+    border-radius: 100%;
+
+}
+.footer{
+    font-size: 48px;
+ margin-right: 7cm;
+ margin-top: -1cm;
+}
+#btn{
+    margin-left:7.3cm ;
+}
+.carousel-caption h1 {
+    color: var(--bleu);
+    font-size: 100px;
+
+    
+}
